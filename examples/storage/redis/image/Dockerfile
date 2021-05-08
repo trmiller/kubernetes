@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.4
+FROM alpine:3.11
 
 RUN apk add -U redis sed bash && rm -rf /var/cache/apk/*
 
